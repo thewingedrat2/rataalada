@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(25, 25, 25);
+}
+.cypher{
+    transform: scaleX(-1);
+    display: none;
+    position: absolute;
+    top: 220px;
+    color: rgb(4, 192, 4);
+    font-family: monospace;
+    font-size: 1.25em;
+    left: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.r{
+    font-size: 1.25em;
+    font-family: monospace;
+    top: 10px;
+    color: rgb(4, 192, 4);
+    position: absolute;
+    left: 25px;
+}
+.riddle{
+    font-size: 1.25em;
+    letter-spacing: 4.5px;
+    font-family: monospace;
+    border-right: 2.5px solid rgb(4, 192, 4);
+    width: 384px;
+    white-space: nowrap;
+    display: inline;
+    overflow: hidden;
+    color: rgb(4, 192, 4);
+    animation: 
+    delays 3s ,
+    typing 2.3s steps(32),
+    cursor 0.3s step-end infinite alternate;
+    position: absolute;
+    left: 70px;
+    top: 10px
+}
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+@keyframes typing {
+    from {width:0}
+}
+.riddle0{
+        font-size: 1.25em;
+        letter-spacing: 4.5px;
+        font-family: monospace;
+        border-right: 2.5px solid rgb(4, 192, 4);
+        width: 814px;
+        white-space: nowrap;
+        display: none;
+        overflow: hidden;
+        color: rgb(4, 192, 4);
+        animation: 
+        typing 4s steps(32),
+        cursor 0.3s step-end infinite alternate;
+        position: absolute;
+        left: 70px;
+        top: 50px;
+}
+.inpriddle{
+    color: rgb(4, 192, 4);
+    border-color: rgb(4, 192, 4);
+    background: none;
+    font-family: monospace;
+    font-size: 1.25em;
+    border: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-inline: 14px;
+    width: 120px;
+    position: absolute;
+    top: 106px;
+    left: 70px;
+    display: none;
+    outline: none;
+    letter-spacing: 2.5px;
+}
+.riddle1{
+    font-size: 1.25em;
+    position: absolute;
+    color: rgb(4, 192, 4);
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 509px;
+    letter-spacing: 2.5px;
+    border-right: 2px solid rgb(4, 192, 4);
+    animation: typing 2.8s steps(23), cursor 0.3s step-end infinite alternate;
+    top: 140px;
+    left: 70px;
+    display: none;
+    letter-spacing: 4.5px;
+}
+.riddle2{
+    font-size: 1.25em;
+    position: absolute;
+    color: rgb(4, 192, 4);
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 538px;
+    letter-spacing: 2.5px;
+    border-right: 2px solid rgb(4, 192, 4);
+    animation: typing 4.8s steps(31), cursor 0.3s step-end infinite alternate;
+    top: 180px;
+    left: 70px;
+    display: none;
+    letter-spacing: 4.5px;
+}
+.show{
+    background: none;
+    border: solid;
+    border-color: rgb(4, 192, 4);
+    color: rgb(4, 192, 4);
+    font-family: monospace;
+    font-size: 1.25em;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 160px;
+    padding: 12px;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: absolute;
+    top: 234px;
+    left: 70px;
+    display: none;
+}
+.show:hover{
+    background-color: rgb(4, 192, 4);
+    color: rgb(25, 25, 25);
+}
